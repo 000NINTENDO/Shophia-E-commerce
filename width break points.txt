@@ -1,0 +1,7 @@
+1. 1200px
+
+--------------
+@media screen sizes
+> For Mobile: max-width = 600px
+> For Tablet: min-width = 600px
+> For Desktops: min-width = 768px

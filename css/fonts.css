@@ -1,0 +1,25 @@
+/* font files */
+@font-face {
+    font-family: "lato-light";
+    src: url("../fonts/lato/Lato-Light.ttf")
+}
+@font-face {
+    font-family: "lato-regular";
+    src: url("../fonts/lato/Lato-Regular.ttf")
+}
+@font-face {
+    font-family: "lato-bold";
+    src: url("../fonts/lato/Lato-Bold.ttf")
+}
+@font-face {
+    font-family: "playfair-display-bold-italic";
+    src: url("../fonts/playfair-display/PlayfairDisplay-BoldItalic.ttf")
+}
+@font-face {
+    font-family: "playfair-display-italic";
+    src: url("../fonts/playfair-display/PlayfairDisplay-SemiBoldItalic.ttf")
+}
+@font-face {
+    font-family: "krinksdecor";
+    src: url("../fonts/KrinkesDecorPERSONAL.ttf");
+}

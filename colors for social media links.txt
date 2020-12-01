@@ -1,0 +1,6 @@
+#c5a02b
+c5a951
+> color for hover effect
+#d4a855 ---like Orange
+#e0a434 ---like Orange
+#7866fa ---like Blue
