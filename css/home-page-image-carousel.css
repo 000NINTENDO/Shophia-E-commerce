@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 @font-face {
     font-family: "lato-light";
@@ -22,6 +24,8 @@
     height: 684px;
     background: #c1c1c1;
     overflow: visible;
+    display: flex;
+    justify-content: center;
 }
 .images-container {
     display: flex;
@@ -33,19 +37,25 @@
 .slider-image-1 {
     width: 100%;
     object-fit: cover;
-    transition: all 2s ease-in-out;
+    /* transition: all 2s ease-in-out; */
     transform: translateX(0%);
 }
 .slider-image-2 {
     width: 100%;
     object-fit: cover;
-    transition: all 2s ease-in-out;
+    /* transition: all 2s ease-in-out; */
     transform: translateX(0%);
 }
 .slider-image-3 {
     width: 100%;
     object-fit: cover;
-    transition: all 2s ease-in-out;
+    /* transition: all 2s ease-in-out; */
+    transform: translateX(0%);
+}
+.slider-image-4 {
+    width: 100%;
+    object-fit: cover;
+    /* transition: all 2s ease-in-out; */
     transform: translateX(0%);
 }
 
@@ -164,22 +174,132 @@
 }
 /* Dots for image indication */
 .img-indication-dots {
-    width: 100%;
+    width: 115px;
+    height: 50px;
+    background: rgba(219, 219, 219, 0.356);
     position: absolute;
     display: flex;
     justify-content: center;
+    align-items: center;
     bottom: 0;
     margin-bottom: 1em;
+    /* box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.2); */
 }
-.img-indication-dots [class^=dot] {
-    width: 1em;
-    height: 1em;
-    background: #f78947;
-    margin: 0px 0.6em;
+/* .img-indication-dots [class^=dot] {
+    width: 16px;
+    height: 16px;
+    background: #fd6100;
+    margin: 0px 12px;
+    border: 1px solid rgba(255, 255, 255, 0);
     transform: rotate(45deg);
-}
-.img-indication-dots .dot3, .img-indication-dots .dot1 {
-    width: 0.6em;
-    height: 0.6em;
+} */
+/* .img-indication-dots .dot3, .img-indication-dots .dot1 {
+    width: 10px;
+    height: 10px;
+    /* background: #fd610000; */
+    /* border: 1px solid #fd6100;
+}  */
 
+/* Tranition for DOTS on corousal */
+.img-indication-dots .dot1 {
+    width: 16px;
+    height: 16px;
+    background: #fd6100;
+    /* margin: 0px 12px; */
+    /* border: 1px solid rgba(255, 255, 255, 0); */
+    transform: rotate(45deg) scale(0.7);
+}
+.img-indication-dots .dot2 {
+    width: 16px;
+    height: 16px;
+    background: #fd6100;
+    /* margin: 0px 12px; */
+    /* border: 1px solid rgba(255, 255, 255, 0); */
+    transform: rotate(45deg) scale(1);
+}
+.img-indication-dots .dot3 {
+    width: 16px;
+    height: 16px;
+    background: #000000;
+    /* margin: 0px 12px; */
+    /* border: 1px solid rgba(255, 255, 255, 0); */
+    transform: rotate(45deg) scale(0.7);
+    /* transition: all 2s; */
+}
+.img-indication-dots .dot4 {
+    width: 16px;
+    height: 16px;
+    background: #000000;
+    /* margin: 0px 12px; */
+    /* border: 1px solid rgba(255, 255, 255, 0); */
+    transform: rotate(45deg) scale(0.7);
+    /* transition: all 2s; */
+}
+.img-indication-dots .dot5 {
+    width: 16px;
+    height: 16px;
+    background: #000000;
+    /* margin: 0px 12px; */
+    /* border: 1px solid rgba(255, 255, 255, 0); */
+    transform: rotate(45deg) scale(0.7);
+    /* transition: all 2s; */
+}
+/* .img-indication-dots .dot3 {
+    margin-right: 0;
+}
+.img-indication-dots .dot1 {
+    margin-left: 0;
+} */
+/* styling a container box having the dots */
+.dot1-container, .dot2-container, .dot3-container, .dot4-container, .dot5-container{
+    /* position: absolute; */
+    width: 30px;
+    height: 30px;
+    overflow: visible;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 2s;
+    background: rgba(255, 255, 255, 0);
+    margin: 0px 30px;  
+}
+.dot1-container {
+    transform: translateX(-0px);
+} 
+.dot2-container {
+    margin-left: 0px;
+    transform: translateX(-0px);
+}
+.dot3-container {
+    margin-left: 0px;
+    transform: translateX(-0px);
+}
+.dot4-container {
+    position: absolute;
+    margin-left: 0px;
+    transform: translateX(102px);
+}
+
+.dot5-container {
+    position: absolute;
+    margin-left: 0px;
+    transform: translateX(145px);
+}
+/* Increase slider button */
+.container-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: row; */
+}
+.increment-button, .decrement-button {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    font-size: 2em;
+    /* margin-right: auto;
+    margin-left: auto; */
 }
