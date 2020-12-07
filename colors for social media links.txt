@@ -4,3 +4,9 @@ c5a951
 #d4a855 ---like Orange
 #e0a434 ---like Orange
 #7866fa ---like Blue
+> colors for shop now button
+#ec8937 -like orange
+#ec8b46 -like orange
+#ec9146 -like orange
+#ec9852
+#eca265

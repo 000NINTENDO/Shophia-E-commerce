@@ -26,7 +26,23 @@
   end time: 1:00 AM
   Working  Hours: 
 
-> December 1;
+> December 2;
   sart time: 5:57 AM
   end time: 
   Working Hours: 
+
+> December 3;
+  Working Hours: 3hrs
+
+> December 4;
+  Working Hours: 3hrs
+
+> December 5
+  start time: 10:00 PM
+  end time: 12:00 AM
+
+> December 6
+  start time: 10:35 AM
+  end time: 
+  Working Hours: 
+

@@ -5,7 +5,7 @@
 }
 @font-face {
     font-family: "lato-light";
-    src: url("../fonts/lato/Lato-Light.ttf")
+    src: url("../fonts/lato/Lato-Black.ttf")
 }
 @font-face {
     font-family: "lato-regular";
@@ -23,7 +23,7 @@
     width: 100%;
     height: 684px;
     background: #c1c1c1;
-    overflow: visible;
+    overflow: hidden;
     display: flex;
     justify-content: center;
 }
@@ -147,6 +147,9 @@
     position: relative;
     font-size: 2em;
 }
+.text-line-4 span {
+    color:black;
+}
 .text-line-4:after {
     content: "";
     position: absolute;
@@ -176,13 +179,14 @@
 .img-indication-dots {
     width: 115px;
     height: 50px;
-    background: rgba(219, 219, 219, 0.356);
+    background: rgba(219, 219, 219, 0);
     position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     bottom: 0;
     margin-bottom: 1em;
+    overflow: hidden;
     /* box-shadow: inset 0px 0px 4px 1px rgba(0, 0, 0, 0.2); */
 }
 /* .img-indication-dots [class^=dot] {
@@ -204,7 +208,7 @@
 .img-indication-dots .dot1 {
     width: 16px;
     height: 16px;
-    background: #fd6100;
+    background: #c4c4c4;
     /* margin: 0px 12px; */
     /* border: 1px solid rgba(255, 255, 255, 0); */
     transform: rotate(45deg) scale(0.7);
@@ -212,7 +216,7 @@
 .img-indication-dots .dot2 {
     width: 16px;
     height: 16px;
-    background: #fd6100;
+    background: #202020;
     /* margin: 0px 12px; */
     /* border: 1px solid rgba(255, 255, 255, 0); */
     transform: rotate(45deg) scale(1);
@@ -220,7 +224,7 @@
 .img-indication-dots .dot3 {
     width: 16px;
     height: 16px;
-    background: #000000;
+    background: #c4c4c4;
     /* margin: 0px 12px; */
     /* border: 1px solid rgba(255, 255, 255, 0); */
     transform: rotate(45deg) scale(0.7);
@@ -303,3 +307,53 @@
     /* margin-right: auto;
     margin-left: auto; */
 }
+
+/* Shop now button */
+.button-shop-now {
+    width: 100%;
+    position: absolute;
+    top: 500px;
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0);
+}
+.button-shop-now button  {
+    width: 200px;
+    height: 50px;
+    border: 0px solid black;
+    border-radius: 2px;
+    background:#eca265;
+    outline: none;
+    font-family: "lato-bold";
+    transition: all 0.1s ease-in-out;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0);
+}
+.button-shop-now button a {
+    width: 100%;
+    display: block;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.button-shop-now button:hover {
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02, 1.02);
+}
+/* Styling for bottom border of image corosal container */
+.coroual-container-bottom-border {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 10px;
+    background: rgba(0, 0, 0, 0);
+    position: absolute;
+    bottom: -10px;
+    box-shadow: 0px -8px 6px 1px rgba(0, 0, 0, 0.2);
+}
+/* .coroual-container-bottom-border::after {
+    content: "";
+    border: 15px solid transparent;
+    border-color: transparent transparent rgb(255, 255, 255) transparent;
+    position: absolute;
+    top: -30px;
+} */
