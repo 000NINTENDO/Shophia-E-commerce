@@ -40,9 +40,15 @@
 > December 5
   start time: 10:00 PM
   end time: 12:00 AM
+  Working Hours: 2 hrs
 
 > December 6
   start time: 10:35 AM
-  end time: 
-  Working Hours: 
+  end time: 12:00 AM
+  Working Hours: 13 hrs 25mins
+
+> November 12
+  start time: 10:16 AM
+  end time: 11:54 PM
+  Working Hours: 10 hrs 30 mins  
 
