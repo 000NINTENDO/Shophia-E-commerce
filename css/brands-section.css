@@ -1,0 +1,160 @@
+@import "./fonts.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.brands__section {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #e0e0e000;
+    overflow: hidden;
+}
+
+.brand_item {
+    width: 175px;
+    height: 175px;
+    background: rgba(250, 116, 116, 0);
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* css for testimonial section */
+
+.testimonial_section {
+    position: relative;
+}
+
+.testimonial_header {
+    width: 91%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.testimonial_sub_section { 
+    width: 100%;
+    display: flex;
+}
+
+
+
+.arrow_container {
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    /* background: red; */
+    position: absolute;
+    top: 0;
+    align-self: flex-start;
+    margin-top: 89px;
+    z-index: 1;
+}
+.testimonial_top_arrow {
+    width: 25%;
+    display: block;
+}
+
+.before_arrow, .after_arrow  {
+    width: 37.5%;
+    box-shadow: 6px 4px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.after_arrow {
+    box-shadow: -6px 4px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial_container {
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    position: relative;
+    background: #debd83;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.person_says {
+    width: 50%;
+    height: 400px;
+    margin-bottom: 10px;
+    background: rgba(255, 244, 96, 0);
+    display: flex;
+}
+
+.person_image_container {
+    width: 200px;
+    height: 328px;
+    align-self: flex-end;
+}
+
+.person_image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+} 
+
+.person_1_img {
+    width: 200px;
+    align-self: flex-end;
+    /* background: rgba(236, 145, 145, 0.623); */
+}
+
+.person_comment_section_1, .person_comment_section_2 {
+    width: 300px;
+    margin-left: 10px;
+    font-family: "playfair-display-italic";
+    /* background: #eeaeee00; */
+    align-self: flex-end;
+    margin-bottom: 50px;
+} 
+
+.person_comment_section_1 {
+    margin-left: 25px;
+}
+
+.person_comment_section_2 {
+    margin-right: 25px; 
+}
+
+.few_words {
+    color: white;
+    font-size: 1em;
+    line-height: 2;
+    font-family: "playfair-display-italic-regular";
+    margin-bottom: 50px;
+}
+
+.person_name {
+    margin-top: 30px;
+    font-size: 1.6em;
+    font-family: "playfair-display-bold-italic";
+}
+
+.person_designation {
+    color: #777;
+    font-size: 0.9em;
+    margin-top: 10px;
+    font-family: "lato-bold";
+}
+
+.person_says_1 {
+    margin-left: 80px;
+    margin-right: 10px;
+}
+.person_says_2 {
+    text-align: end;
+    justify-content: flex-end;
+    margin-right: 80px;
+}

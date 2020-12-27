@@ -12,11 +12,15 @@
         <link rel="stylesheet" href="./css/home-page-image-carousel.css">
         <link rel="stylesheet" href="./css/fetured-section.css">
         <link rel="stylesheet" href="./css/main-section-1.css">
+        <link rel="stylesheet" href="./css/recent-products.css">
+        <link rel="stylesheet" href="./css/brands-section.css">
+        <link rel="stylesheet" href="./css/footer.css">
     </head>  
 
     <body>
         <header class="header-bar">
             <nav class="header-top-bar">
+                <div class="blured_layer"></div>
                 <div class="container-elements">
                     <div class="contact">
                         <i class="fas fa-phone-alt"></i><span><span>Call</span> &plus;001 555 801</span>
@@ -35,19 +39,19 @@
                 <nav class="navbar-left">
                     <ul>
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">Gallery</a></li>
-                        <li><a href="#">Categories</a></li>
-                        <li><a href="#">Pages</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#product_categories">Categories</a></li>
+                        <li><a href="#brands">Pages</a></li>
                     </ul>
                 </nav>
                 <h1 class="logo-text">Shophia</h1>
                 <div class="navbar-right">
                     <nav class="header-social-links-bar">
                         <ul>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
-                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://in.pinterest.com" target="_blank"><i class="fab fa-pinterest"></i></a></li>
+                            <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
                         </ul>
                     </nav>
                     <form class="country-selector">
@@ -67,18 +71,18 @@
                 </div>
             </div>
             <div class="header-arrow-bottom">
-            <div class="img-before"></div>
-            <img src="photos/arrow-bottom-2.png">
-            <div class="img-before"></div>
+                <div class="img-before"></div>
+                <img src="photos/arrow-bottom-2.png">
+                <div class="img-before"></div>
             </div>
         </header>
 <!-- Image slideshow container -->
         <section class="image-slideshow-container">
-            <div class="images-container">
-                <img id="corousal-img-1" class="slider-image-1" src="photos/Shopia-slider-image-1.jpg" alt="Shohia Home">
-                <img id="corousal-img-2" class="slider-image-2" src="photos/slider-image-2.jpg" alt="Shohia Home">
-                <img id="corousal-img-3" class="slider-image-3" src="photos/slider-image-3.jpg" alt="Shohia Home">
-                <img id="corousal-img-4" class="slider-image-4" src="photos/Shopia-slider-image-1.jpg" alt="Shohia Home">
+            <div class="images_container">
+                    <img id="slider_image_1" class="slider_image slider_image_1" src="photos/slider-img-1-1.jpg" alt="Shohia Home"> 
+                    <img id="slider_image_2" class="slider_image" src="photos/slider-img-2.jpg" alt="Shohia Home">
+                    <img id="slider_image_3" class="slider_image" src="photos/slider-image-7.jpg" alt="Shohia Home">
+                    <img id="slider_image_4" class="slider_image" src="photos/slider-img-1-1.jpg" alt="Shohia Home"> 
             </div>
             <div class="text-container">
                 <div class="border-outside">
@@ -157,7 +161,7 @@
 
             <main class="main-section">
 
-                <section class="featured-section">
+                <section class="featured-section" id="gallery">
                     
                     <div class="featured-title-1">
                         <div class="border-title-left"></div>
@@ -167,7 +171,7 @@
                         <div class="border-title-right"></div>
                     </div>
 
-                    <div class="featured-products">
+                    <div class="featured-products" >
                         <!-- <div class="row-1-products"> -->
                             <div class="featured-product-1 featured-items-container">
                                 <img class="featured-product-image featured-product-img-1" src="./photos/featured-section-img-1.jpg" alt="Featured Product">
@@ -263,34 +267,414 @@
                                 </div>
 
                             </div>
-                        <!-- </div> -->
                     </div>
+
+                    <div class="recent-title-1" id="product_categories">
+                        <div class="border-title-left"></div>
+                        <div class="title-square-left"></div>
+                        <h1 class="title-1 recent_title">Summer Collection</h1>
+                        <div class="title-square-right"></div>
+                        <div class="border-title-right"></div>
+                    </div>
+
+                    <div class="recent_products_container">
+                        <div class="recent_products">
+
+                            <div class="recent_product recent_product_1">
+                                <img class="recent_product_img recent_product_img_1" src="photos/summer-collection-8.jpg" alt="summer collection">
+                                <div class="recent_product_hover_container">
+                                    <div class="add_cart_button_1"></div>
+                                    <div class="add_cart_button_2"></div>
+                                    
+                                    <div class="hover_layer_container">
+                                        <div class="hover_layer_1"></div>
+                                        <div class="hover_layer_2"></div>
+                                    </div>
+
+                                    <a href="/" class="add_to_cart_text">
+                                        <span class="fa fa-cart-plus" ></span>
+                                        <p>Add to Cart</p>
+                                    </a>
+
+                                    <div class="discount_label">
+                                             <div class="discount_amount">
+                                                 <span class="discount_number">20</span>
+                                                <sup class="discount_percent">&percnt;</sup>
+                                            </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="recent_product recent_product_2">
+                                <img class="recent_product_img recent_product_img_1" src="photos/summer-collection-7.jpg" alt="summer collection">
+
+                                <div class="recent_product_hover_container">
+                                    <div class="add_cart_button_1"></div>
+                                    <div class="add_cart_button_2"></div>
+                                    
+                                    <div class="hover_layer_container">
+                                        <div class="hover_layer_1"></div>
+                                        <div class="hover_layer_2"></div>
+                                    </div>
+
+                                    <a href="/" class="add_to_cart_text">
+                                        <span class="fa fa-cart-plus" ></span>
+                                        <p>Add to Cart</p>
+                                    </a>
+
+                                    <div class="discount_label">
+                                             <div class="discount_amount">
+                                                 <span class="discount_number">20</span>
+                                                <sup class="discount_percent">&percnt;</sup>
+                                            </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="recent_product recent_product_3">
+                                <img class="recent_product_img recent_product_img_1" src="photos/summer-collection-6.jpg" alt="summer collection">
+
+                                <div class="recent_product_hover_container">
+                                    <div class="add_cart_button_1"></div>
+                                    <div class="add_cart_button_2"></div>
+                                    
+                                    <div class="hover_layer_container">
+                                        <div class="hover_layer_1"></div>
+                                        <div class="hover_layer_2"></div>
+                                    </div>
+
+                                    <a href="/" class="add_to_cart_text">
+                                        <span class="fa fa-cart-plus" ></span>
+                                        <p>Add to Cart</p>
+                                    </a>
+
+                                    <div class="discount_label">
+                                             <div class="discount_amount">
+                                                 <span class="discount_number">20</span>
+                                                <sup class="discount_percent">&percnt;</sup>
+                                            </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="recent_product recent_product_4">
+                                <img class="recent_product_img recent_product_img_1" src="photos/summer-collection-5.jpg" alt="summer collection">
+
+                                <div class="recent_product_hover_container">
+                                    <div class="add_cart_button_1"></div>
+                                    <div class="add_cart_button_2"></div>
+                                    
+                                    <div class="hover_layer_container">
+                                        <div class="hover_layer_1"></div>
+                                        <div class="hover_layer_2"></div>
+                                    </div>
+
+                                    <a href="/" class="add_to_cart_text">
+                                        <span class="fa fa-cart-plus" ></span>
+                                        <p>Add to Cart</p>
+                                    </a>
+
+                                    <div class="discount_label">
+                                             <div class="discount_amount">
+                                                 <span class="discount_number">20</span>
+                                                <sup class="discount_percent">&percnt;</sup>
+                                            </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="recent_product recent_product_5">
+                                <img class="recent_product_img recent_product_img_1" src="photos/summer-collection-4.jpg" alt="summer collection">
+
+                                <div class="recent_product_hover_container">
+                                    <div class="add_cart_button_1"></div>
+                                    <div class="add_cart_button_2"></div>
+                                    
+                                    <div class="hover_layer_container">
+                                        <div class="hover_layer_1"></div>
+                                        <div class="hover_layer_2"></div>
+                                    </div>
+
+                                    <a href="/" class="add_to_cart_text">
+                                        <span class="fa fa-cart-plus" ></span>
+                                        <p>Add to Cart</p>
+                                    </a>
+
+                                    <div class="discount_label">
+                                             <div class="discount_amount">
+                                                 <span class="discount_number">20</span>
+                                                <sup class="discount_percent">&percnt;</sup>
+                                            </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="recent_product recent_product_6">
+                                <img class="recent_product_img recent_product_img_1" src="photos/summer-collection-3.jpg" alt="summer collection">
+
+                                <div class="recent_product_hover_container">
+                                    <div class="add_cart_button_1"></div>
+                                    <div class="add_cart_button_2"></div>
+                                    
+                                    <div class="hover_layer_container">
+                                        <div class="hover_layer_1"></div>
+                                        <div class="hover_layer_2"></div>
+                                    </div>
+
+                                    <a href="/" class="add_to_cart_text">
+                                        <span class="fa fa-cart-plus" ></span>
+                                        <p>Add to Cart</p>
+                                    </a>
+
+                                    <div class="discount_label">
+                                             <div class="discount_amount">
+                                                 <span class="discount_number">20</span>
+                                                <sup class="discount_percent">&percnt;</sup>
+                                            </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="recent_product recent_product_7">
+                                <img class="recent_product_img recent_product_img_1" src="photos/summer-collection-2.jpg" alt="summer collection">
+
+                                <div class="recent_product_hover_container">
+                                    <div class="add_cart_button_1"></div>
+                                    <div class="add_cart_button_2"></div>
+                                    
+                                    <div class="hover_layer_container">
+                                        <div class="hover_layer_1"></div>
+                                        <div class="hover_layer_2"></div>
+                                    </div>
+
+                                    <a href="/" class="add_to_cart_text">
+                                        <span class="fa fa-cart-plus" ></span>
+                                        <p>Add to Cart</p>
+                                    </a>
+
+                                    <div class="discount_label">
+                                             <div class="discount_amount">
+                                                 <span class="discount_number">20</span>
+                                                <sup class="discount_percent">&percnt;</sup>
+                                            </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="recent_product recent_product_8">
+                                <img class="recent_product_img recent_product_img_1" src="photos/summer-collection-1.jpg" alt="summer collection">
+
+                                <div class="recent_product_hover_container">
+                                    <div class="add_cart_button_1"></div>
+                                    <div class="add_cart_button_2"></div>
+                                    
+                                    <div class="hover_layer_container">
+                                        <div class="hover_layer_1"></div>
+                                        <div class="hover_layer_2"></div>
+                                    </div>
+
+                                    <a href="/" class="add_to_cart_text">
+                                        <span class="fa fa-cart-plus" ></span>
+                                        <p>Add to Cart</p>
+                                    </a>
+
+                                    <div class="discount_label discount_label_8">
+                                             <div class="discount_amount">
+                                                 <span class="discount_number">40</span>
+                                                <sup class="discount_percent">&percnt;</sup>
+                                            </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section class="brands_section" id="brands">
+
+                    <div class="recent-title-1">
+                        <div class="border-title-left"></div>
+                        <div class="title-square-left"></div>
+                        <h1 class="title-1 recent_title">Our Brands</h1>
+                        <div class="title-square-right"></div>
+                        <div class="border-title-right"></div>
+                    </div>
+
+                    <div class="brands__section">
+                        <div class="brand_item brand_item_1">
+                            <img class="brand_logo brand_logo_1" src="./photos/brand-logo-6.png" alt="Brand Logo">
+                        </div>
+                        <div class="brand_item brand_item_2">
+                            <img class="brand_logo brand_logo_1" src="./photos/brand-logo-5.png" alt="Brand Logo">
+                        </div>
+                        <div class="brand_item brand_item_3">
+                            <img class="brand_logo brand_logo_1" src="./photos/brand-logo-4.png" alt="Brand Logo">
+                        </div>
+                        <div class="brand_item brand_item_4">
+                            <img class="brand_logo brand_logo_1" src="./photos/brand-logo-3.png" alt="Brand Logo">
+                        </div>
+                        <div class="brand_item brand_item_5">
+                            <img class="brand_logo brand_logo_1" src="./photos/brand-logo-2.png" alt="Brand Logo">
+                        </div>
+                        <div class="brand_item brand_item_6">
+                            <img class="brand_logo brand_logo_1" src="./photos/brand-logo-1.png" alt="Brand Logo">
+                        </div>
+                    </div>    
+                
                 </section>
 
             </main>
 
-            <div class="main"></div>
+            <section class="testimonial_section">
+
+                <div class="testimonial_header recent-title-1">
+                    <div class="border-title-left"></div>
+                    <div class="title-square-left"></div>
+                    <h1 class="title-1 recent_title">Customer Says</h1>
+                    <div class="title-square-right"></div>
+                    <div class="border-title-right"></div>
+                </div>
+
+                
+
+                    
+                <div class="testimonial_sub_section">
+                    <div class="arrow_container">
+                        <div class="img-before before_arrow"></div>
+                        <img class="testimonial_top_arrow" src="./photos/arrow-bottom-2.png" alt="Header Arrow">
+                        <div class="img-before after_arrow"></div>
+                    </div>
+                    <div class="testimonial_container"> 
+                        <div class="person_says person_says_1">
+                            <div class="person_image_container">
+                                 <img class="person_1_img person_image" src="./photos/testimonial-sandra-dewi.png"  alt="person_1">
+                            </div>
+                            <div class="person_comment_section_1">
+                                <div class="few_words">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita natus assumenda eaque quos repellendus voluptatibus dignissimos.</p>
+                                </div>
+                                <div class="person_name">
+                                    <p>Sandra Dewi</p>
+                                </div>
+                                <div class="person_designation">
+                                    <p>FASHION STYLIST</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="person_says person_says_2">
+                            <div class="person_comment_section_2">
+                                <div class="few_words">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita natus assumenda eaque quos repellendus voluptatibus dignissimos.</p>
+                                </div>
+                                <div class="person_name">
+                                    <p>Shaheer Sheikh</p>
+                                </div>
+                                <div class="person_designation">
+                                    <p>DESIGNER</p>
+                                </div>
+                            </div>
+                            <div class="person_image_container">
+                                <img class="person_1_img person_image" src="./photos/testimonial-man.png"  alt="person_1">
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+           <footer class="footer">
+               <section class="footer_container">
+                   <section class="shop_section">
+                       <h4 class="header_shop_section">SHOPS</h4>
+                       <div class="shop_content">
+                           <a class="content_link" href=""><p>New In</p></a>
+                           <a class="content_link" href=""><p>Women</p></a>
+                           <a class="content_link" href=""><p>Women</p></a>
+                           <a class="content_link" href=""><p>Men</p></a>
+                           <a class="content_link" href=""><p>Shoes</p></a>
+                           <a class="content_link" href=""><p>Bags &amp; Accessories</p></a>
+                           <a class="content_link" href=""><p>Top Brands</p></a>
+                           <a class="content_link" href=""> <p>Sale &amp; Special Offers</p></a>
+                           <a class="content_link" href=""> <p>Lookbook</p></a>                     
+                       </div>
+                   </section>
+                   <section class="information_section">
+                       <h4 class="header_shop_section header_information_section">INFORMATON</h4>
+                       <div class="shop_content">
+                           <a class="content_link" href=""><p>About Us</p></a>
+                           <a class="content_link" href=""><p>Customer Services</p></a>
+                           <a class="content_link" href=""><p>New Collection</p></a>
+                           <a class="content_link" href=""><p>Best Sellers</p></a>
+                           <a class="content_link" href=""><p>Manufacturers</p></a>
+                           <a class="content_link" href=""><p>Privacy Policy</p></a>
+                           <a class="content_link" href=""><p>Terms &amp; Conditions</p></a>
+                           <a class="content_link" href=""> <p>Blog</p></a> 
+                       </div>
+                   </section>
+                   <section class="service_section">
+                        <h4 class="header_shop_section header_service_section">CUSTOMER SERVICE</h4>
+                        <div class="shop_content">
+                            <a class="content_link" href=""><p>Search Terms</p></a>
+                            <a class="content_link" href=""><p>Advanced Search</p></a>
+                            <a class="content_link" href=""><p>Orders and Returns</p></a>
+                            <a class="content_link" href=""><p>Contact Us</p></a>
+                            <a class="content_link" href=""><p>RSS</p></a>
+                            <a class="content_link" href=""><p>Help &amp; FAQs</p></a>
+                            <a class="content_link" href=""><p>Cusultant</p></a>
+                            <a class="content_link" href=""> <p>Store Locations</p></a>                  
+                        </div>
+                   </section>
+                   <div class="contact_section">
+                        <section class="social-media_section">
+                            <h4 class="header_shop_section">STAY CONNECTED</h4>
+                            <div class="social_media_links">
+                                <a href="#"><span class="fa fa-facebook media_links"></span></a>
+                                <a href="#"><span class="fab fa-twitter media_links"></span></a>
+                                <a href="#"><span class="fab fa-instagram media_links"></span></a>
+                                <a href="#"><span class="fab fa-pinterest media_links"></span></a>
+                            </div>
+                           </section>
+                           <section class="news_letter_section">
+                               <h4 class="header_shop_section header_news_letter">
+                                   SUBSCRIBE <span>in</span> OUR NEWS LETTER
+                               </h4>
+                               <form class="input_container_news_letter">
+                                   <input type="text" name="input_news_letter" class="input_news_letter" placeholder="Enter Your Email Address">
+                                   <button  class="button_news_letter">SUBSCRIBE</button>
+                               </form>
+                           </section>
+                        </div>
+                </section>
+                <section class="credit_section">
+                    <div class="border_top_credit_section"></div>
+                    <div class="credit_details_container">
+                        <div class="credit_details">
+                            <p>&copy; 2020 Shophia Fashion Store Shopify.</p>
+                            <p>All Rights Reserved. Ecommerce Software by Shopify.</p>
+                            <p>Designed by MoccaLabs.com</p>
+                            <p>Created by Niten Solanki.</p>
+                        </div>
+                    </div>
+                    <div class="payment_options">
+                        <a href="#" class="payment_link"><i class="fa fa-cc-visa"></i></a>
+                        <a href="#" class="payment_link"><i class="fa fa-cc-mastercard"></i></a>
+                        <a href="#" class="payment_link"><i class="fa fa-cc-discover"></i></a>
+                    </div>     
+                </section>
+                <div class="border_bottom_footer_section"></div>
+               
+            </footer>
         <!-- <div id="testjs"></div> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         <script src="./js/country-select-button.js"></script>
-        <!-- <script src="./js/corousal.js"></script> -->
+        <script src="./js/corousal.js"></script>
         <script src="./js/main-featured-section.js"></script>
     </body>
 </html>

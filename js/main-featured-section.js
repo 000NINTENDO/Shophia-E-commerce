@@ -10,12 +10,6 @@ let line_1_clone = document.querySelectorAll(".clone-1-1");
 let line_2_clone = document.querySelectorAll(".clone-2-1");
 let addButton = document.querySelectorAll(".button-product-1");
 
-
-console.log(openProductContainer);
-console.log(borderContainer);
-console.log(productContainer);
-console.log(productImages);
-
 let handleShopNowContainer_0 = () => {
 
     if( borderContainer[0].style.visibility === "hidden") {

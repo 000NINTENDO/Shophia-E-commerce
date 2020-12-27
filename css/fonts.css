@@ -23,6 +23,12 @@
     font-family: "playfair-display-italic";
     src: url("../fonts/playfair-display/PlayfairDisplay-SemiBoldItalic.ttf")
 }
+
+@font-face {
+    font-family: "playfair-display-italic-regular";
+    src: url("../fonts/playfair-display/PlayfairDisplay-Italic.ttf")
+}
+
 @font-face {
     font-family: "krinksdecor";
     src: url("../fonts/KrinkesDecorPERSONAL.ttf");
