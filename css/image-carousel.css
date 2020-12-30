@@ -42,7 +42,7 @@
 .slider_image {
     width: 100%;
     object-fit: cover;
-    transition: all 2s;
+    transition: all 2s ease-in-out;
 }
 
 /* .slider_image_1 {
@@ -208,26 +208,26 @@
 }  */
 
 /* Tranition for DOTS on corousal */
-.img-indication-dots .dot1 {
+.dot1 {
     width: 16px;
     height: 16px;
-    background: #c4c4c4;
+    background: #ffffff;
     /* margin: 0px 12px; */
     /* border: 1px solid rgba(255, 255, 255, 0); */
     transform: rotate(45deg) scale(0.7);
 }
-.img-indication-dots .dot2 {
+.dot2 {
     width: 16px;
     height: 16px;
-    background: #202020;
+    background: #ffffff;
     /* margin: 0px 12px; */
     /* border: 1px solid rgba(255, 255, 255, 0); */
-    transform: rotate(45deg) scale(1);
+    transform: rotate(45deg) scale(0.7);
 }
-.img-indication-dots .dot3 {
+.dot3 {
     width: 16px;
     height: 16px;
-    background: #c4c4c4;
+    background: #ffffff;
     /* margin: 0px 12px; */
     /* border: 1px solid rgba(255, 255, 255, 0); */
     transform: rotate(45deg) scale(0.7);
@@ -250,6 +250,12 @@
     /* border: 1px solid rgba(255, 255, 255, 0); */
     transform: rotate(45deg) scale(0.7);
     /* transition: all 2s; */
+}
+
+.active_dot {
+    transition: all 1s ease-in-out;
+    transform: rotate(45deg) scale(1);
+    background: hsl(0, 0%, 0%);
 }
 /* .img-indication-dots .dot3 {
     margin-right: 0;

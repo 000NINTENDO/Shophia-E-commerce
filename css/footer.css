@@ -15,7 +15,7 @@
     width: 100%;
     background: #151515;
     position: relative;
-    padding-top: 75px;
+    /* padding-top: 75px; */
 
 }
 
@@ -39,6 +39,7 @@
     color: white;
     font-family: "lato";
     margin-bottom: 20px;
+    margin-top: 75px;
 }
 
 .content_link {
