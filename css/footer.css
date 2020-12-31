@@ -39,7 +39,7 @@
     color: white;
     font-family: "lato";
     margin-bottom: 20px;
-    margin-top: 75px;
+    margin-top: 50px;
 }
 
 .content_link {
@@ -84,7 +84,7 @@
 
 .social_media_links {
     display: flex;
-    margin-bottom: 25px;
+    /* margin-bottom: 0px; */
 }
 
 .social_media_links a {
